@@ -37,10 +37,10 @@ The system features role-based access, product management, and user authenticati
    - dotnet restore
 
 4. **Apply Migrations & Seed Database**
-  - dotnet ef database update
+   - dotnet ef database update
 
 5. **Run the Application**
-  - dotnet run
+   - dotnet run
 
 # Navigate to: https://localhost:5001
 
@@ -48,8 +48,8 @@ The system features role-based access, product management, and user authenticati
 To build the project manually:
 
 Run:
-dotnet clean
-dotnet build
+-- dotnet clean
+-- dotnet build
 
 ## System Functionalities & User Roles
 ### User Authentication
@@ -59,15 +59,15 @@ Role-based access for:
 - Employees: Can view farmer data and update statuses.
 
 ### Core Features
-Add and manage farmer profiles
-Upload and manage agricultural products
-Secure access with authorization
-Role-specific navigation and dashboards
+- Add and manage farmer profiles
+- Upload and manage agricultural products
+- Secure access with authorization
+- Role-specific navigation and dashboards
 
 ## Development Notes
-Identity scaffolded with dotnet aspnet-codegenerator identity
-Styling uses basic CSS
-_LoginPartial.cshtml was replaced with custom login buttons
+- Identity scaffolded with dotnet aspnet-codegenerator identity
+- Styling uses basic CSS
+- _LoginPartial.cshtml was replaced with custom login buttons
 
 
 
