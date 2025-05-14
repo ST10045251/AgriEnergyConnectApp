@@ -48,13 +48,13 @@ The system features role-based access, product management, and user authenticati
 To build the project manually:
 
 Run:
--- dotnet clean
--- dotnet build
+- dotnet clean
+- dotnet build
 
 ## System Functionalities & User Roles
 ### User Authentication
-Secure login & registration via ASP.NET Identity.
-Role-based access for:
+- Secure login & registration via ASP.NET Identity.
+- Role-based access for:
 - Farmers: Can add/edit/delete products.
 - Employees: Can view farmer data and update statuses.
 
