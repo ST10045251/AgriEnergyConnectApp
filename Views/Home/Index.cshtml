@@ -1,0 +1,68 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    body {
+        background-color: #18332f;
+        color: white;
+        font-family: 'Segoe UI', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .home-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .bubble-text {
+        font-size: 48px;
+        font-weight: bold;
+        color: #ffffff;
+        background-color: #1a4a43;
+        border-radius: 40px;
+        padding: 20px 40px;
+        margin-bottom: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        display: inline-block;
+    }
+
+    .subtext {
+        font-size: 28px;
+        font-weight: 500;
+        margin-top: 10px;
+        color: #ffffff;
+    }
+
+    .button {
+        background-color: #4caf50;
+        color: white;
+        padding: 12px 28px;
+        font-size: 20px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-top: 30px;
+        transition: background-color 0.3s;
+        display: inline-block;
+    }
+
+    .button:hover {
+        background-color: #388e3c;
+    }
+</style>
+
+<div class="home-container">
+    <h1 class="bubble-text">Powering Growth,</h1>
+    <h1 class="bubble-text">Connecting Farms</h1>
+    <p class="subtext">Welcome to Agri-Energy Connect!</p>
+
+    <button class="button" onclick="location.href='@Url.Action("About", "Home")'">About Us</button>
+    <button class="button" onclick="location.href='@Url.Action("Login", "Home")'">Login</button>
+</div>
