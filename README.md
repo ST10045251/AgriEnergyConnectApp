@@ -34,13 +34,13 @@ The system features role-based access, product management, and user authenticati
    cd AgriEnergyConnectApp
 
 2. **Restore NuGet Packages**
-  dotnet restore
+   - dotnet restore
 
-3. **Apply Migrations & Seed Database**
-  dotnet ef database update
+4. **Apply Migrations & Seed Database**
+  - dotnet ef database update
 
 5. **Run the Application**
-  dotnet run
+  - dotnet run
 
 # Navigate to: https://localhost:5001
 
